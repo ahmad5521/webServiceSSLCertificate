@@ -51,11 +51,11 @@ namespace consumeWebServiceUsingSSLCertificate
                     //var s = base.Mapper.Map<establishmentInfoByMainIdResult, EstablishmentInfoByMainIdResponse>(yakeenServiceResponse.EstablishmentInfoByMainIdResult);
                     Console.WriteLine(yakeenServiceResponse.EstablishmentInfoByMainIdResult);
                 }
-                catch (Exception ex)
+                catch (FaultException<Yakeen4ELMXFault> ex)
                 {
                     myChannelFactory.Close();
                     //(client as ICommunicationObject)?.Abort();
-                    Console.WriteLine(ex);
+                    Console.WriteLine(ex.Detail);
                 }
 
             }
