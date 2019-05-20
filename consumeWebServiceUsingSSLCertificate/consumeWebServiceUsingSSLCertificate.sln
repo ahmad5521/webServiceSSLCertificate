@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consumeWebServiceUsingSSLCertificate", "consumeWebServiceUsingSSLCertificate\consumeWebServiceUsingSSLCertificate.csproj", "{86D6BB48-01A9-4C4E-8B1B-1E99804BE20A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86D6BB48-01A9-4C4E-8B1B-1E99804BE20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D6BB48-01A9-4C4E-8B1B-1E99804BE20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D6BB48-01A9-4C4E-8B1B-1E99804BE20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D6BB48-01A9-4C4E-8B1B-1E99804BE20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D3963F2-D2AC-40A6-9FF5-F8220C2612FC}
+	EndGlobalSection
+EndGlobal
